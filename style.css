@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgb(16, 44, 59), #06ebe0) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    transform: translate(90%, 30%);
+}
+
+.conteudo {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+    box-shadow: 2px 2px 0px 0px rgba(2, 1, 1, 0.397);
+    
+}
+
+.login {
+    background-color: rgb(12, 58, 70);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: honeydew;
+    
+    
+    }
+
+
+
+.email {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+.email label {
+        margin: auto;
+        color: rgb(12, 58, 70);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+.email input {
+        display: block;
+        margin: auto;
+        }
+    
+.password {
+        margin-bottom: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+    } 
+
+    .password label {
+        margin: auto;
+        color: rgb(12, 58, 70);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .password input {
+        display: block;
+        margin: auto;
+     }
+    .esqueceusenha {
+        margin-bottom: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .esqueceusenha a {
+        text-decoration: none;
+        color: rgb(12, 58, 70) ;
+    }
+
+    .esqueceusenha a:hover {
+        color: rgb(160, 1, 1);
+    }
+
+    .botao {
+        display: block;
+        margin: auto;
+        width: 70px;
+        border-radius: 5px;
+        height: 30px;
+        margin-bottom: 10px;
+        box-shadow: none;
+        background-color: rgb(12, 58, 70) ;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+
+    
+
+   
+                
+
+
